@@ -18,7 +18,6 @@ class Building
     }
 }
 public class Method {
-
     public static void main(String[] args) {
         
         Building objBuilding=new Building();
