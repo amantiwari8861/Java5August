@@ -1,4 +1,4 @@
-public interface Interface 
+ interface Interface 
 {
     int a=10; //public static final
 	void fxn();	// public abstract
