@@ -12,7 +12,7 @@
 }
 class Abc implements Interface
 {
-	public void fxn()
+	public void fxn() //public is must here
 	{
 		System.out.println("hii");
 	}

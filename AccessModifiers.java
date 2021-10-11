@@ -1,4 +1,4 @@
-package aman.vikash;
+package aman.ritesh;
 
 public class AccessModifiers {
     public static void main(String[] args) {
