@@ -2,7 +2,7 @@ class Student
 {
     String name="Ritik";
    
-    Student giveStudent()
+    public  Student giveStudent()
     {
         return this;
     }

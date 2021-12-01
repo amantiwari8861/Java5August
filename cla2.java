@@ -14,5 +14,8 @@ public class cla2 {
         short s=Short.parseShort(data[5]);
         boolean bool=Boolean.parseBoolean(data[6]);
         long l=Long.parseLong(data[7]);
+
+        System.out.println(num + " "+num2+" "+num3+" "+ch+" "+b+" "+s+" "+bool+" "+l);
+
     }
 }
