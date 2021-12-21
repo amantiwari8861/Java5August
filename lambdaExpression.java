@@ -48,7 +48,7 @@ class Employee {
         this.empName=empName;
         this.country=country;
     }
-    
+    //Object
     public String toString()
     {
         return "empId : "+empId+", empName : "+empName+", country : "+country;
@@ -60,7 +60,7 @@ class LambdaDemo
     public static void main (String[] args) {
         //Example 1: To access a method with no arguments
         System.out.println("Example 1: No argument lambda expression ");
-        DemoInterface1 demoInterface1 = () -> System.out.println("No arguments");
+        DemoInterface1 demoInterface1 = () -> {System.out.println("No arguments");};
         demoInterface1.noArguments();
         System.out.println(); //for line spacing
         
@@ -72,7 +72,9 @@ class LambdaDemo
         
        //Example 3: To access a method with 1 argument
         System.out.println("Example 3: One argument lambda expression to print square of the given Integer number");
-        DemoInterface3 demoInterface3 = k -> k*k;
+        DemoInterface3 demoInterface3 = (k) -> k*k;
+        // DemoInterface3 demoInterface3 = (k) ->{ return k*k; };
+        // DemoInterface3 demoInterface3 = k -> k*k;
         System.out.println(demoInterface3.singleArgument(7));
         System.out.println(); //for line spacing
         
